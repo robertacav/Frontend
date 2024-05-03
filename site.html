@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> 
+    <title>Manicure da Ro</title> 
+    <link rel="stylesheet" href="site.css"/> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body> 
+    <h1>Manicure da Ro</h1>
+    <nav>
+        <ul>
+            <li><a href="#Nossas_redes">Nossas redes</a></li>
+            <section id="Nossas_redes">
+                <header>
+                    <h4>Venha nos conhecer melhor através das nossas redes e entre em contato conosco</h4>
+                    <a href="https://www.instagram.com/robertacavalheiro_?igshid=MWFoaGh3bzlpeWFnaw=="><button>Instagram</button></a>
+                    <a href="mailto:ana.cavalheiro.ramos@escola.pr.gov.br"><button>Email</button></a>
+                </header>
+            </section>
+            <li><a href="#Sobre_nos">Sobre nós</a></li>
+            <section id="Sobre_nos">
+                <header>
+                    <h4>Estamos localizados em: <a href="https://www.google.com/maps/place/R.+Mandirituba,+2100+-+S%C3%ADtio+Cercado,+Curitiba+-+PR,+81925-540">Rua Mandirituba, 2100 - Sítio Cercado, Curitiba - PR, 81925-540</a></h4>
+                    <h4>"Descubra a beleza em cada detalhe, suas mãos merecem ser mimadas. Na nossa manicure, cada unha é uma obra de arte, feita com amor e precisão. Deixe-nos transformar suas unhas em um reflexo perfeito de sua personalidade. Sinta-se confiante e radiante com cada pincelada, aqui, na arte de cuidar de você."</h4>
+                    <h4>Contamos com profissionais de alto desempenho para lidar com sua autoestima</h4>
+                </li>        
+                </header>
+            </section>
+        </ul>
+    </nav>
+    <div class="carousel">
+            <div class="carousel-images">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeVtNIvRIJoleAdzzGTehRoYNhuf4Sk4nmvw&s" alt="manicure">
+              <img src="https://www.laylaunhas.com.br/wp-content/uploads/2023/12/mesa-organizada.png" alt="Nosso espaço">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1MXA9YRtt2pObX-eBjF2QxJHRxk3x7_-EsA&s" alt="manicure">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRghNU94M2m6FCJ5LSSVf6uAkyjnnaW9mgriA&s" alt="manicure">
+            </div>
+            <button class="prev" onclick="prevSlide()">Anterior</button>
+            <button class="next" onclick="nextSlide()">Próxima</button>
+        </div>
+    </div>
+    <h2>Responda nosso formulário abaixo</h2>
+    <div>
+        <form action="#" method="POST">
+            <legend>Informações de Contato</legend>
+            <label for="nome">Nome</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+            <label for="contato">Telefone para contato</label><br>
+            <input type="text" id="contato" name="contato" required><br>
+            <label for="mensagem">O que deseja?</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50" required></textarea><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Manicure da Ro. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
